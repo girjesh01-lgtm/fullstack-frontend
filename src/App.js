@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import UserList from "./components/UserList";
+import HelloBackend from "./components/HelloBackend";
 
 function App() {
   return (
     <div>
-      <UserList />
+      <HelloBackend />
     </div>
   );
 }
