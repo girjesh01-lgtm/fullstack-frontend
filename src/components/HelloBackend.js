@@ -1,6 +1,6 @@
 import { useEffect, userState, useState } from "react";
 
-function UserList() {
+function HelloBackend() {
     const [message, setMessage] = useState("");
 
     useEffect(() => {
@@ -20,4 +20,4 @@ function UserList() {
     );
 }
 
-export default UserList;
+export default HelloBackend;
