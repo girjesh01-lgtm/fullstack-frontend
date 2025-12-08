@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import HelloBackend from "./components/HelloBackend";
+
+import CreateUser from './components/CreateUser';
 
 function App() {
   return (
     <div>
-      <HelloBackend />
+      <CreateUser />
     </div>
   );
 }
