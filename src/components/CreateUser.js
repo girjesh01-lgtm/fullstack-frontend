@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function CreateUser() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [msg, setMsg] = useState("");
+    const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -44,6 +46,7 @@ function CreateUser() {
             </form>
 
             <p>{msg}</p>
+            <button onClick={() => navigate("/")}>Go To Home Page</button>
         </div>
     );
  }
