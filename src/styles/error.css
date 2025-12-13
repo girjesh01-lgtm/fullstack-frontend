@@ -1,0 +1,21 @@
+.error-banner {
+  background-color: #e41919;
+  color: rgb(255, 255, 255);
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: double;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.error-input {
+  border: 1px solid red !important;
+  background-color: #ffecec;
+}
